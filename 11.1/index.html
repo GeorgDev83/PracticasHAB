@@ -21,18 +21,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Establece el título del documento html  -->
     <title>PrácticaCR | Inicio</title>
+    <!-- Insertamos mediante la etiqueta style el CSS -->
+    <style>
+          #intro { font-style: italic; font-size: 1.2rem;}
+          .cabecera-gris { color: grey; }
+     </style>
 </head>
 <!-- Parte visible del documento, el cuerpo del mismo -->
 <body>
      <h1>Jorge</h1>
-     <h2>Jorge Rodríguez</h2>
-     <p>Aquello que no nos mata nos hace más fuertes.</p>
-     <h2>Sobre mí</h2>
-     <p>Soy Big Boss (nombre en clave), y me encanta infiltrarme en las lineas enemigas para rescatar aliados. En un lugar llamado Outer Heaven.</p>
-     <h3>Intereses</h3>
-     <h3>Habilidades</h3>
-     <h2>Contacto</h2>
-     <p>email: miemail@dominio.com</p>
-     <p>tel: +34 666 666 666</p>
+     <!-- Se le asigna a este h2 la clase "cabecera-gris" -->
+     <h2 class="cabecera-gris">Jorge Rodríguez</h2>
+     <!-- Se le asigna el id "intro" al párrafo -->
+     <p id="intro">Aquello que no nos mata nos hace más fuertes.</p>
+     <p>
+          <a href="./secciones/about.html">Ir a la página Sobre mí</a>
+     </p>
+     <p>
+          <a href="./secciones/contact.html">Ir a la página Contacto</a>
+     </p>
 </body>
 </html>
